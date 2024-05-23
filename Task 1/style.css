@@ -1,0 +1,174 @@
+body {
+    border: 2px solid black;
+}
+
+.gridcontainer1 {
+    display: grid;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr;
+}
+
+.item1 {
+    width: 70px;
+    height: 50px;
+    justify-self: end;
+}
+
+.item2 {
+    background-color: rgb(186, 73, 164);
+    color: white;
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    justify-self: center;
+}
+
+.item3 {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-self: center;
+}
+
+.item4 {
+    justify-self: center;
+    color: rgb(186, 73, 164);
+
+}
+
+.item5 {
+    text-align: center;
+}
+
+.item6 {
+    background-color: rgb(186, 73, 164);
+    color: white;
+    max-width: 260px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    justify-self: center;
+}
+
+.founder {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* grid-template-columns: 1fr 1fr; */
+}
+
+.founder img {
+    width: 90px;
+    height: 90px;
+
+
+}
+
+.fname {
+    text-align: center;
+}
+
+.designation {
+    text-align: center;
+
+}
+
+.vname {
+    text-align: center;
+}
+
+.vp {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   
+}
+
+.vp1 {
+
+    flex-wrap: wrap;
+
+
+}
+
+.vp p {
+    max-width: 90px;
+    text-align: center;
+}
+
+.devteam {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.devteam img {
+    transform: scaleX(-1);
+}
+
+.dev_item1 {
+    width: 70px;
+    height: 50px;
+    justify-self: start;
+    align-self: center;
+    flex-wrap: wrap;
+
+}
+
+.dev_item2 {
+    background-color: rgb(186, 73, 164);
+    color: white;
+    max-width: 180px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    justify-self: center;
+    align-self: center;
+
+}
+
+.dev {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.dev p {
+    max-width: 90px;
+    text-align: center;
+}
+
+.salesteam {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.salesteam img {
+    width: 70px;
+    height: 50px;
+    justify-self: end
+}
+
+.sales_item1 {
+    grid-column: 2/3;
+    justify-self: center;
+}
+
+.sales_item1 {
+    background-color: rgb(186, 73, 164);
+    color: white;
+    max-width: 190px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+.last_item {
+    width: 70px;
+    height: 50px;
+    justify-self: end;
+    transform: scaleX(-1);
+}
